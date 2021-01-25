@@ -21,14 +21,22 @@ oldage = str(100 - age)
 year = (str((2021-age)+100))
 stmt = ("Hi " +name+" , You will turn 100 years old in "+ oldage + " years, i.e. in " + year)
 print(stmt)
-repeat = input("Would you like me to say that again?:  ")
-    
-repeattimes = int(input("How many times?: "))
 
+repeat = input("Would you like me to say that again?:  ")
+
+repeattimes = int(input("How many times?: "))
+    
 print(stmt * repeattimes)
 
 print('Have a nice day!')
 
 # Finished on 24/01/2021
 
+# Ex.2 -- Odd Or Even
 
+# Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. 
+# Hint: how does an even / odd number react differently when divided by 2?
+# Extras:
+# If the number is a multiple of 4, print out a different message.
+# Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). 
+# If check divides evenly into num, tell that to the user. If not, print a different appropriate message.
