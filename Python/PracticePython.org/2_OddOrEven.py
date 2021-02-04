@@ -1,3 +1,5 @@
+# from http://www.practicepython.org/  
+
 # Ex.2 -- Odd Or Even
 
 # Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user. 
@@ -7,3 +9,7 @@
 # Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). 
 # If check divides evenly into num, tell that to the user. If not, print a different appropriate message.
 
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+for element in a:
+    print(element)
